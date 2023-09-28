@@ -1,0 +1,198 @@
+*{
+    margin:0px;
+    bottom: 0px;
+    padding: 0px;
+}
+main{
+    position: relative;
+    width: 1340px;
+    height: 2000px;
+    background-color: #3C0000;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 5%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00000075;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    
+}
+
+.listaHeader{
+    color: #d1c076;
+    margin: 30px;
+    text-decoration: none;
+    
+}
+
+#tituloArea{
+    color: #d1c076;
+    width: 200px;
+    height: 75px;
+    background-color: #0000007c;
+    margin-top: 50px;
+    margin-left: 40%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#familia, #civil, #empresa{
+    width: 100%;
+    height: 450px;
+    background-color: #0000007e;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.areas{
+    margin: 10px;
+    color: #d1c076;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#familia{
+    display: flex;
+    flex-direction: column;
+}
+
+#familia p, li{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #d1c076;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.listaFamilia{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 40%;
+    height: 280px;
+    
+}
+
+#civil{
+    display: flex;
+    flex-direction: column;
+}
+
+#civil p, li{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #d1c076;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.listaFamilia{
+    margin-top: 20px;
+    width: 40%;
+    height: 280px;
+    
+}
+#empresa{
+    display: flex;
+    flex-direction: column;
+}
+
+#empresa p, li{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #d1c076;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.listaFamilia{
+    margin-top: 20px;
+    width: 40%;
+    height: 280px;
+    
+}
+
+#contatos{
+    width: 100%;
+    height: 150px;
+    background-color:#0000007e;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#redes{
+    color: #d1c076;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 150px;
+    
+}
+
+#iconsRede{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#imgFooter{
+    height: auto;
+    width: 200px;
+}
+
+.logoGs{
+    
+    width: 300px;
+    height: 300px;
+}
+
+
+#contatosFooter{
+    color: #d1c076;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin-right: 150px;
+}
+
+#iconsContatos{
+    display: flex;
+    flex-direction: row;
+}
+
+.emailLogo{
+    margin-left: -40px;
+}
+
+#emailParagrafo{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
