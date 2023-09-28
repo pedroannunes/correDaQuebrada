@@ -11,6 +11,10 @@ main{
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     width: 100%;
     height: 5%;
