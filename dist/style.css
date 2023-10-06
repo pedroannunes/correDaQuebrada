@@ -7,19 +7,134 @@ main{
     position: relative;
     width: 100%;
     height: auto;
-    background-color: #3C0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linhas{
+    margin-top: 30px;
 }
 
+
+.contatoWpp{
+    position: fixed;
+    z-index: 2;
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 84%;
+    background-color: #000;
+}
+.wppCima{
+    color: #d1c076;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #012244;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.wppCima:hover{
+    background-color: #060d20;
+    transition: 1.5s;
+}
+
+#principal{
+    margin-top: -20px;
+    background: 
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url(/img/familiaIMG.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoPrincipal{
+    color: #d1c076;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -140px;
+}
+h5{
+    color: #d1c076;
+    margin-top: -60px;
+}
+.msgHeader{
+    font-size: 12px;
+
+}
+
+.botaoHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #012244;
+    
+}
+.botaoHeader:hover{
+    background-color: #060d20;
+    transition: 1.5s;
+}
+
+.pHeader{
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(0, 183, 255);
+}
+
+
+#tipoAtendimento{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin: 15px;
+}
+
+#caixas{
+
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.caixa, .caixa2, .caixa3{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border: #012244 3px solid;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+/*
 header{
     width: 100%;
-    height: 5%;
+    height: auto;
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #00000075;
+    background-color: #3c0000;
     font-size: 20px;
+    border-radius: 10px;
 }
 ul{
     list-style: none;
@@ -33,14 +148,17 @@ ul{
     margin: 30px;
     text-decoration: none;
 }
-
+*/
 
 .container{
+    width: 100%;
     margin-top: 70px;
 }
 
+
 .container2{
-    margin-top: 70px;
+    width: 100%;
+    margin-top: 10px;
 }
 
 
@@ -59,7 +177,7 @@ ul{
     font-style: normal;
     font-size: 24px;
     line-height: 1;
-    letter-spacing: normal;
+    letter-spacing: normal; 
     text-transform: none;
     display: inline-block;
     white-space: nowrap;
@@ -90,6 +208,11 @@ ul{
       .indicators{
         visibility: hidden;
     }
+    .paragrafoCarroselA, .paragrafoCarroselB, .paragrafoCarroselC{
+        background-color: #012244;
+        border-radius: 3px;
+        width: 150px;
+    }
     .paragrafoCarroselA, #h2Empre{
         color: #ffffff;
     }
@@ -103,6 +226,7 @@ ul{
     
     #imagemEmpresarial{
         background-image: url(/img/img_empresarial.jpg);
+        background-size: cover;
     }
 
     #imagemFamilia{
@@ -176,7 +300,7 @@ ul{
     .description {
         width: 50%;
         height: 100%;
-        background-color: white;
+        background-color: #fff;
         position: relative;
         z-index: 1;
         border-radius: 8px;
@@ -267,53 +391,51 @@ ul{
         color: #d1c076;
         width: 200px;
         height: 75px;
-        background-color: #0000007c;
+        background-color: #223547;
         margin-top: 50px;
         margin-left: 40%;
-        
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 20px;
+    
     }
 
     #sobre{
         width: 100%;
         height: 450px;
-        background-color: #0000007e;
-        margin-top: 50px;
+        background-color: #223547;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .fotoPng{ 
         width: 380px;
-        height: auto;
+        height: 450px;
     }
 
     #textoSobre{
         color: #d1c076;
-        margin-top: 70px;
         display: flex;
         flex-direction: row;
         font-size: 18px;
     }
 
     #textoSobre p{
-        text-align: justify;
+        text-align: inherit;
     }
 
     .logoSobre{
         width: 366px;
         height: 350px;
-        margin-right: 20px;
-        margin-top: -70px;
+        
     }
 
     #contatos{
         width: 100%;
         height: 150px;
-        background-color:#0000007e;
+        background-color:#012244;
         margin-top: 50px;
         display: flex;
         align-items: center;
@@ -340,11 +462,6 @@ ul{
         width: 200px;
     }
    
-    .logoGs{
-        
-        width: 300px;
-        height: 300px;
-    }
     
 
     #contatosFooter{
