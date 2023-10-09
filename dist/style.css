@@ -427,7 +427,13 @@ h5{
         .contatoWpp{
             display: none;
         }
-        p{
-            font-size: 10px;
+
+        #principal{
+            position: relative;
         }
+
+        p{
+            font-size: 15px;
+        }
+
     }
